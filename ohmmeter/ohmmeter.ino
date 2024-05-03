@@ -111,16 +111,24 @@ void loop() {
     unit = 'G';
   }
 
-  //rX = ScaleToMetricUnits(&rX, fStr);
+  // char sz[20] = {' '} ;
+
+  // int val_int = (int)rX;   // compute the integer part of the float
+
+  // float val_float = (abs(rX) - abs(val_int)) * 100000;
+
+  // int val_fra = (int)val_float;
+
+  // sprintf (sz, "%d.%d", val_int, val_fra); //
 
   //Serial.println(fStr);
 
-  u8x8.setCursor(1, 1);
-  u8x8.print(rX);
-  u8x8.setCursor(1, 4);
-  u8x8.print(unit);
-  u8x8.setCursor(3, 4);
-  u8x8.print("OHM");
+  // u8x8.setCursor(1, 1);
+  // u8x8.print(rX);
+  // u8x8.setCursor(1, 4);
+  // u8x8.print(unit);
+  // u8x8.setCursor(3, 4);
+  // u8x8.print("OHM");
 
   //Serial.println(rX);
   //Serial.println("");
